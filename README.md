@@ -13,7 +13,7 @@ M.S. Computer Science, University of Southern California
 - Converted **Llama 3.2-1B** into a **Mixture-of-Experts** model with **LoRA** adapters and kept held-out quality level with the original, perplexity **9.60 versus 9.66**
 - Quantized weights from **FP16** to **INT4**, cutting model size **61%** while keeping generated answers coherent
 
-### Power Grid Dispatch Model
+### [Power Grid Dispatch Model](https://github.com/josephl894/power-grid-dispatch)
 
 *Python · Jan. 2026 - May 2026 · USC*
 
@@ -27,14 +27,14 @@ M.S. Computer Science, University of Southern California
 - Trained **Qwen2.5-1.5B** with **LoRA** on 1,000 grade-school math problems to write its reasoning before the answer
 - Rebuilt the grader until a correct final answer **scored consistently**, then implemented a **GRPO** trainer that rewards a correct, clearly reasoned solution among 4 candidates
 
-### Weenix (A Unix-Like OS Kernel)
+### [Weenix (A Unix-Like OS Kernel)](https://github.com/josephl894/weenix)
 
 *C, x86, QEMU · Aug. 2025 - Dec. 2025 · USC*
 
 - Constructed a Unix-like kernel in **C**, with process scheduling, a file system, and virtual memory
 - Integrated the three parts in **QEMU** so processes could be scheduled, files created and removed, and a copied process shared memory until one side wrote to it
 
-### PostgreSQL Buffer Manager
+### [PostgreSQL Buffer Manager](https://github.com/josephl894/postgresql-buffer-manager)
 
 *C, PostgreSQL · Jan. 2025 - May 2025 · USC*
 
